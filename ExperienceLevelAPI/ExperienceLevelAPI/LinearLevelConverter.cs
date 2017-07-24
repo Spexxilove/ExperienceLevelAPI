@@ -1,11 +1,12 @@
 ﻿using System;
 
+
+namespace ExperienceLevelAPI
+{
 /// <summary>
 /// Example Linear level converter.
 /// 1lvl = 10exp
 /// </summary>
-namespace ExperienceLevelAPI
-{
 	public class LinearLevelConverter : ExperienceLevelConverter
 	{
 		public LinearLevelConverter ()
